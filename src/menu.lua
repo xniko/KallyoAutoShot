@@ -1,0 +1,31 @@
+----------------------------------------------------------------
+-- MENU --------------------------------------------------------
+----------------------------------------------------------------
+-- -- Make the menu visible or invisible.
+-- function kasMenu_Toggle()
+-- 	if kas:IsVisible() then
+-- 		kas:Hide()
+-- 	else
+-- 		kas:Show()
+-- 	end
+-- end
+--
+-- -- Change the config file when a click happens.
+-- function kas_CheckButton_OnClick()
+-- 	local t = this:GetText();
+-- 	if this:GetChecked() then
+-- 		kasConfig[t] = true
+-- 	else
+-- 		kasConfig[t] = false
+-- 	end
+-- end
+--
+-- -- Load the check button setting on show.
+-- function kas_ButtonInitialize()
+-- 	local name = this:GetText()
+-- 	if kasConfig then
+-- 		if kasConfig[name] then
+-- 			this:SetChecked(true);
+-- 		end
+-- 	end
+-- end

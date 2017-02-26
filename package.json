@@ -1,0 +1,37 @@
+{
+  "name": "kallyo-auto-shot",
+  "version": "1.0.0",
+  "description": "Auto-shot timer for 1.12.1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xniko/KallyoAutoShot.git"
+  },
+  "keywords": [
+    "vanilla",
+    "hunter",
+    "addon"
+  ],
+  "author": "Kallyo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xniko/KallyoAutoShot/issues"
+  },
+  "homepage": "https://github.com/xniko/KallyoAutoShot#readme",
+  "devDependencies": {
+    "babel-core": "^6.14.0",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-register": "^6.14.0",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-if": "^2.0.1",
+    "gulp-load-plugins": "^1.2.4",
+    "gulp-luacheck": "^1.0.4",
+    "gulp-newer": "^1.2.0",
+    "run-sequence": "^1.0.1"
+  }
+}

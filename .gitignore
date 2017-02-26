@@ -39,3 +39,16 @@ luac.out
 *.x86_64
 *.hex
 
+.DS_Store
+*.log
+node_modules
+build
+*.node
+components
+coverage
+*.orig
+.idea
+sandbox
+test/out-fixtures/*
+test/watch-*.txt
+gulp.1
